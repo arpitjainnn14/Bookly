@@ -1,2 +1,8 @@
 /__pycache__/
 /myvenv/
+/*.pyc
+.DS_Store
+.env
+.vscode/          
+src/__pycache__
+src/books/__pycache__
