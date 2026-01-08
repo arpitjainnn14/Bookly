@@ -20,7 +20,7 @@ async def get_book_by_id(book_id:int)->dict:
 @book_router.post('/')
 async def create_book(book:Book):
     new_book=book.model_dump()
-    books.book_routerend(new_book)
+    books.append(new_book)
 
     return new_book
 
